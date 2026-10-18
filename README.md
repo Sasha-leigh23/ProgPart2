@@ -1,8 +1,8 @@
  QuickChat & Secure Authentication Console Application (Part 1 & Part 2)
 
-A robust, multi-class Java console application built using Apache Maven. This project integrates secure user registration, complex input validation, user authentication, and advanced message management (with JSON file persistence and JUnit 5 unit testing).
+A multi-class Java console application built using Apache Maven. This project integrates secure user registration, complex input validation, user authentication, and advanced message management (with JSON file persistence and JUnit 5 unit testing).
 
----
+
 
 Project Overview
 
@@ -23,16 +23,17 @@ The application is structured into two primary modules:
 
 Project Structure
 
-pom.xml — Apache Maven project configuration and dependency management file.
+pom.xml - Apache Maven project configuration and dependency management file.
 
-storedMessages.json — Generated local storage file containing saved messages.
+storedMessages.json - Generated local storage file containing saved messages.
 
 Source Directory
-ProgPart2Maven.java — Main console application handling user input, registration flow, login gate, and the QuickChat interactive menu.
 
-LogIn.java — User authentication class managing registration data, input validation logic (username, password, and cell regex), and status messaging.
+ProgPart2Maven.java - Main console application handling user input, registration flow, login gate, and the QuickChat interactive menu.
 
-Messages.java — Message management class handling unique ID generation, character length validation, message hashing, and JSON serialization.
+LogIn.java - User authentication class managing registration data, input validation logic (username, password, and cell regex), and status messaging.
+
+Messages.java - Message management class handling unique ID generation, character length validation, message hashing, and JSON serialization.
 
 Source Test Directory 
 
